@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import StateProps from './reactjs-dasar/StateProps';
+// import App from './App';
+// import Mobil from './reactjs-dasar/mobil'
+// import Toko from './reactjs-dasar/Toko'
+// import Lifecycle from './reactjs-dasar/lifecycle'
+// import Map from './reactjs-dasar/Map'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Crud from './Crud'
+import Baru from './baru'
+// import Mee from './mee'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App/> */}
+    {/* <Mobil/> */}
+    {/* <Crud/> */}
+    <Baru/>
+    {/* <Mee/> */}
+     {/* <Lifecycle/> */}
+     {/* <Toko/> */}
+    {/* <Map/> */}
+    {/* <StateProps/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

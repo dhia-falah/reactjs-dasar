@@ -1,0 +1,26 @@
+thead {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+    border: 1px solid gray;
+    color: lavender;
+}
+tbody {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Andika;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    border: 3px solid gray;
+    background-color: black;
+    color: lightcyan;
+    height: 3rem;
+}
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+Form {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
